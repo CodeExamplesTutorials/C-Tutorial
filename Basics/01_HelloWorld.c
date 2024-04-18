@@ -5,12 +5,10 @@
 
 int main(void)
 {
-#ifdef __WIN32
-    setvbuf(stdout, NULL, _IONBF, 0); /* required for Eclipse on Windows not to buffer stdout */
-#endif
+  setvbuf(stdout, NULL, _IONBF, 0);
 
-    printf("Hello World");
+  printf("Hello World");
 
-    return 0;
+  return 0;
 }
 
