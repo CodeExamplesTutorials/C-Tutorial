@@ -5,19 +5,18 @@
 
 int main(void)
 {
-	/* Comment */
+  /* Comment */
+  uint8_t u8ReturnValue = /* zero */0; //Comment
 
-	/* Multi Line Comment
-	 *
-	 *
-	 */
+  /* Multi Line Comment
+   *
+   *
+   */
 
+//  Test
 
+//  Multi line
+//  Multi line
 
-//	Test
-
-//	Multi line
-//	Multi line
-
-  return 0; /* end of function */
+  return u8ReturnValue; /* end of function */
 }
