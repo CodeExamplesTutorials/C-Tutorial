@@ -37,6 +37,5 @@ int main(void)
 		printf("Smaller or equal 10\n");
 	}
 
-
   return 0;
 }
