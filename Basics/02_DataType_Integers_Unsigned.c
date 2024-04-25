@@ -10,7 +10,7 @@ int main(void)
 
   u8Value  = 0xFF;
   u16Value = 0xFFFF;
-  u32alue  = 0xFFFFFFFF;
+  u32Value  = 0xFFFFFFFF;
   u64Value = 0xFFFFFFFFFFFFFFFF;
 
  (void)u8Value;
