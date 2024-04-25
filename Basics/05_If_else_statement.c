@@ -1,20 +1,18 @@
-/* (c) advancedprogramming.org / info@advancedprogramming.org */
-
+/* (c) advancedprogramming.org */
 #include <stdio.h>
 #include <stdint.h>
 
-
 int main(void)
 {
-  uint8_t bValue = 1;
+  uint8_t u8Value = 1;
 
   setvbuf(stdout, NULL, _IONBF, 0);
 
-  if(0 == bValue)
+  if(0 == u8Value)
   {
 	  printf("value set to 0\n");
   }
-  else if(1 == bValue)
+  else if(1 == u8Value)
   {
 	  printf("value set to 1\n");
   }
@@ -22,7 +20,6 @@ int main(void)
   {
 	  printf("not expected\n");
   }
-
 
   return 0;
 }

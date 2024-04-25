@@ -1,25 +1,23 @@
-/* (c) advancedprogramming.org / info@advancedprogramming.org */
-
+/* (c) advancedprogramming.org */
 #include <stdio.h>
 #include <stdint.h>
 
-
 int main(void)
 {
-	uint8_t bValue = 10;
+	uint8_t u8Value = 10;
 	setvbuf(stdout, NULL, _IONBF, 0);
 
-	if(10 > bValue && 8 < bValue)
+	if(10 > u8Value && 8 < u8Value)
 	{
 		printf("Value is 9\n");
 	}
 
-	if(10 == bValue || 9 == bValue)
+	if(10 == u8Value || 9 == u8Value)
 	{
 		printf("Value is 9 or 10\n");
 	}
 
-	if(!(10 == bValue))
+	if(!(10 == u8Value))
 	{
 		printf("is not 10\n");
 	}

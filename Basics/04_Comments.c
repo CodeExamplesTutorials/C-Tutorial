@@ -1,8 +1,7 @@
-/* (c) advancedprogramming.org / info@advancedprogramming.org */
+/* (c) advancedprogramming.org */
 
 #include <stdio.h>
 #include <stdint.h>
-
 
 int main(void)
 {
@@ -20,7 +19,5 @@ int main(void)
 //	Multi line
 //	Multi line
 
-
-
-  return 0;
+  return 0; /* end of function */
 }

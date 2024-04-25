@@ -1,20 +1,18 @@
-/* (c) advancedprogramming.org / info@advancedprogramming.org */
-
+/* (c) advancedprogramming.org */
 #include <stdio.h>
 #include <stdint.h>
 
-
 int main(void)
 {
-	uint8_t bValue = 10;
+	uint8_t u8Value = 10;
 	setvbuf(stdout, NULL, _IONBF, 0);
 
-	if(10 > bValue)
+	if(10 > u8Value)
 	{
 		printf("Smaller 10\n");
 	}
 
-	if(10 >= bValue)
+	if(10 >= u8Value)
 	{
 		printf("Smaller or equal 10\n");
 	}
@@ -24,7 +22,7 @@ int main(void)
 		printf("Identical 10\n");
 	}
 
-	if(10 != bValue)
+	if(10 != u8Value)
 	{
 		printf("Not 10\n");
 	}
