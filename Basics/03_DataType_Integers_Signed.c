@@ -11,6 +11,7 @@ int main(void)
 
   i8Value =  0x7F;
   i8Value =  0x80;
+  i8Value =  0x81;
   i8Value =  0xFF;
   i8Value =  0xFE;
 
