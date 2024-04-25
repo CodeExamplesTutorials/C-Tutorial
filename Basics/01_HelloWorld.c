@@ -1,5 +1,4 @@
-/* (c) advancedprogramming.org / info@advancedprogramming.org */
-
+/* (c) advancedprogramming.org */
 #include <stdio.h>
 
 int main(void)
