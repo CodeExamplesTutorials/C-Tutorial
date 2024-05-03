@@ -7,8 +7,9 @@ void Function(uint8_t const u8Value);
 
 int main(void)
 {
+  uint8_t u8Value = 5;
   setvbuf(stdout, NULL, _IONBF, 0);
-  Function(5);
+  Function(u8Value);
 
   return 0;
 }
