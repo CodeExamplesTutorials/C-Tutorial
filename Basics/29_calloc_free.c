@@ -3,6 +3,9 @@
 #include <stdint.h>
 #include <stdlib.h>
 
+#define ERROR_NONE          0
+#define ERROR_OUT_OF_MEMORY 1
+
 typedef struct LOCAL_RSC_Ttag
 {
   uint32_t u32Value1;
@@ -12,16 +15,16 @@ typedef struct LOCAL_RSC_Ttag
 
 int main(void)
 {
-  int32_t i32Result = 0;
+  int32_t i32Result = ERROR_NONE;
   LOCAL_RSC_T* ptRsc = NULL;
 
   ptRsc = calloc(1, sizeof(*ptRsc));
   if(NULL == ptRsc)
   {
-    i32Result = 1;
+    i32Result = ERROR_OUT_OF_MEMORY;
   }
 
-  if(0 == i32Result)
+  if(ERROR_NONE == i32Result)
   {
     /* Implement handling */
   }
