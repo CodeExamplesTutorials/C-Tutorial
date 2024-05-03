@@ -1,4 +1,4 @@
-/* (c) advancedprogramming.org / info@advancedprogramming.org*/
+/* (c) advancedprogramming.org */
 #include <stdlib.h>
 #include <stdint.h>
 
