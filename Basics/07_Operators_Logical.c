@@ -17,7 +17,7 @@ int main(void)
 		printf("Value is 9 or 10\n");
 	}
 
-	if(!(10 == u8Value))
+	if(!(10 == u8Value)) /* don't use this, use if(10 != u8Value) */
 	{
 		printf("is not 10\n");
 	}

@@ -16,6 +16,9 @@ int main(void)
 	u8Value2 = u8Value1 + 1;
 	u8Result = u8Value1 % u8Value2;
 
+	u8Result++;
+	u8Result--;
+
 	(void)u8Result;
   return 0;
 }
