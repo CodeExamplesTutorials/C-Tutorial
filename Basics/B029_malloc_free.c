@@ -42,6 +42,3 @@ int main(void)
   }
   return i32Result;
 }
-
-
-

@@ -5,9 +5,9 @@
 
 typedef struct LOCAL_RSC_Ttag
 {
-    uint32_t u32Value1;
-    uint32_t u32Value2;
-    uint32_t u32Result;
+  uint32_t u32Value1;
+  uint32_t u32Value2;
+  uint32_t u32Result;
 }LOCAL_RSC_T;
 
 void Function(LOCAL_RSC_T* const ptRsc);

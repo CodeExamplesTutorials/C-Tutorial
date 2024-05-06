@@ -7,7 +7,7 @@ int main(void)
 {
   uint8_t  u8Value  = 1;
   uint16_t u16Value = 2;
-  uint32_t u32Value = 18;
+  uint32_t u32Value = 31;
   uint64_t u64Value = 4;
 
   int8_t   i8Value  = 5;
@@ -30,7 +30,10 @@ int main(void)
   printf(" int64_t: %"PRId64"\n", i64Value);
 
   printf("uint32_t: 0x%X\n", u32Value);
+  printf("uint32_t: 0x%x\n", u32Value);
   printf("uint32_t: 0x%08X\n", u32Value);
+
+  printf("uint32_t: %"PRIu32" - 0x%08X\n", u32Value, u32Value);
 
   return 0;
 }

@@ -11,15 +11,15 @@ int main(void)
   switch(u8Value)
   {
   case 0:
-	  printf("value set to 0\n");
-	  break;
+    printf("value set to 0\n");
+    break;
 
   case 1:
-	  printf("value set to 1\n");
-	  break;
+    printf("value set to 1\n");
+    break;
 
   default:
-	  printf("not expected\n");
+    printf("not expected\n");
 	  break;
   }
 

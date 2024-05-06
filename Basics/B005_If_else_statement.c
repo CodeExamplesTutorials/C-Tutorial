@@ -10,15 +10,15 @@ int main(void)
 
   if(0 == u8Value)
   {
-	  printf("value set to 0\n");
+    printf("value set to 0\n");
   }
   else if(1 == u8Value)
   {
-	  printf("value set to 1\n");
+    printf("value set to 1\n");
   }
   else
   {
-	  printf("not expected\n");
+    printf("not expected\n");
   }
 
   return 0;
