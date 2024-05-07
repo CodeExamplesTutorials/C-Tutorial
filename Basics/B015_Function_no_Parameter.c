@@ -2,19 +2,18 @@
 #include <stdio.h>
 #include <stdint.h>
 
-void Function(void);
-
+static void SubFunction(void);
 
 int main(void)
 {
   setvbuf(stdout, NULL, _IONBF, 0);
-  Function();
+  SubFunction();
 
   return 0;
 }
 
-
-void Function(void)
+static void SubFunction(void)
 {
   printf("Function\n");
 }
+
