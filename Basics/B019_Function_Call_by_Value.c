@@ -3,7 +3,7 @@
 #include <stdint.h>
 #include <inttypes.h>
 
-static void SubFunction(uint8_t const u8Value);
+static void SubFunction(uint8_t const u8Val);
 
 int main(void)
 {
@@ -14,7 +14,7 @@ int main(void)
   return 0;
 }
 
-static void SubFunction(uint8_t const u8Value)
+static void SubFunction(uint8_t const u8Val)
 {
-  printf("Value: %"PRIu8"\n", u8Value);
+  printf("Value: %"PRIu8"\n", u8Val);
 }
