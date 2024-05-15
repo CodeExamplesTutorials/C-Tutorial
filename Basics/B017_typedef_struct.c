@@ -9,13 +9,11 @@ typedef struct LOCAL_VAL_Ttag
   uint32_t u32Value2;
 }LOCAL_VAL_T;
 
-
 typedef struct LOCAL_RSC_Ttag
 {
   LOCAL_VAL_T tValues;
   uint32_t    u32Result;
 }LOCAL_RSC_T;
-
 
 int main(void)
 {
@@ -27,10 +25,7 @@ int main(void)
 
   tRsc.u32Result = tRsc.tValues.u32Value1  + tRsc.tValues.u32Value2;
 
-
   printf("Value: %"PRIu8"\n", tRsc.u32Result);
 
   return 0;
 }
-
-
